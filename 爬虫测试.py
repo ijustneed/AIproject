@@ -32,7 +32,7 @@ def get_movie_info(movie_info_url):
     #3.返回数据--字典
     movie_info={"电影名":movie_names[0].strip() if movie_names else "","上榜年份":movie_year[0].strip() if movie_year else "","上映时间":movie_release_date[0].strip() if movie_release_date else "","评分":movie_score[0].strip() if movie_score else ""}
     return movie_info
-#
+#提交
 def save_all_movies(all_movies):
     pass
 
